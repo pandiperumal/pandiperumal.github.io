@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pandi Perumal</title>
+<meta name="description" content="Portfolio of Pandi Perumal, Software Engineer specializing in Python, machine learning, cloud integration, and digital twin systems.">
+<meta name="author" content="Pandi Perumal">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F5F5F0" media="(prefers-color-scheme: light)">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pandi Perumal — Software Engineer">
+<meta property="og:description" content="Python, machine learning, and cloud integration. Software Engineer at TCS.">
+<meta property="og:image" content="images/pandi.png">
+
+<!-- <link rel="icon" href="images/pandi.png" type="image/png"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<script>
+(function () {
+  var t;
+  try { t = localStorage.getItem('pf-theme'); } catch (e) {}
+  if (t !== 'light' && t !== 'dark') {
+    t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  }
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#home">Pandi Perumal</a>
+
+  <div class="theme-switch" role="group" aria-label="Colour theme">
+    <button class="theme-switch__btn" type="button" data-theme-set="light" aria-pressed="false" title="Switch to light theme">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <circle cx="12" cy="12" r="4.4"/>
+        <path d="M12 1.6v2.6M12 19.8v2.6M22.4 12h-2.6M4.2 12H1.6M19.4 4.6l-1.9 1.9M6.5 17.5l-1.9 1.9M19.4 19.4l-1.9-1.9M6.5 6.5L4.6 4.6"/>
+      </svg>
+      <span class="theme-switch__label">Light</span>
+    </button>
+    <button class="theme-switch__btn" type="button" data-theme-set="dark" aria-pressed="true" title="Switch to dark theme">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M20.6 14.7A8.6 8.6 0 0 1 9.3 3.4a8.6 8.6 0 1 0 11.3 11.3z"/>
+      </svg>
+      <span class="theme-switch__label">Dark</span>
+    </button>
+  </div>
+
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="nav__links" id="navLinks" aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="home">
+    <div class="hero__inner">
+
+        <img src="images/pandi.png" alt="Portrait of Pandi Perumal" class="hero__photo" width="240" height="240">
+
+      <div class="hero__text">
+        <h1 class="hero__title">Pandi Perumal</h1>
+        <p class="hero__role">Engineer - Developer</p>
+        <p class="hero__tagline">
+          I <span>like</span> to build stuff and I <span>love</span> to break stuff.
+        </p>
+
+        <ul class="hero__links">
+          <li><a href="mailto:umarajpandiperumal@gmail.com">Email</a></li>
+          <li><a href="https://github.com/pandiperumal" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/pandi-perumal/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="about" aria-labelledby="about-title">
+    <h2 class="section__title" id="about-title">About</h2>
+    <div class="about">
+      <div class="about__body">
+        <p>
+          I studied Electronics &amp; Communication Engineering at R.M.K. Engineering College and
+          now work in software through automation, data, and machine learning.
+        </p>
+        <p>
+          At <strong>TCS</strong> I built a digital twin for CCUS infrastructure, designing the ETL
+          pipelines that keep sensor streams flowing into cloud analytics. Before that, at
+          <strong>Vcodez</strong>, I built Python predictive models for real-time alerting under
+          high-velocity workloads.
+        </p>
+        <p>
+          I care about clean pipelines, honest validation, and code another engineer can pick up
+          without a guided tour.
+        </p>
+      </div>
+      <dl class="about__facts">
+        <div class="fact">
+          <dt class="fact__label">Degree</dt>
+          <dd class="fact__value">B.E. Electronics &amp; Communication</dd>
+        </div>
+        <div class="fact">
+          <dt class="fact__label">Graduating</dt>
+          <dd class="fact__value">2026</dd>
+        </div>
+        <div class="fact">
+          <dt class="fact__label">Based in</dt>
+          <dd class="fact__value">Chennai, India</dd>
+        </div>
+        <div class="fact">
+          <dt class="fact__label">Focus</dt>
+          <dd class="fact__value">Python, ML, cloud integration</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section" id="experience" aria-labelledby="experience-title">
+    <h2 class="section__title" id="experience-title">Experience</h2>
+
+    <div class="entries">
+
+      <article class="entry">
+        <p class="entry__meta"><span class="entry__period">Feb 2026 &mdash; May 2026</span> <span class="entry__tag">Internship</span></p>
+        <h3 class="entry__title">Software Engineer Intern, Tata Consultancy Services</h3>
+        <p class="entry__sub">Digital Engineering &amp; Cloud Integration &middot; Chennai, India</p>
+        <p class="entry__desc">
+          Developed a digital twin for CCUS, creating scalable data pipelines and integrating
+          sensor data with cloud-based analytics platforms.
+        </p>
+        <ul class="chips">
+          <li>Digital Twin</li>
+          <li>ETL Pipelines</li>
+          <li>Cloud Analytics</li>
+          <li>Python</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <p class="entry__meta"><span class="entry__period">Feb 2025 &mdash; May 2025</span> <span class="entry__tag">Internship</span></p>
+        <h3 class="entry__title">Machine Learning Intern, Vcodez</h3>
+        <p class="entry__sub">Machine Learning &amp; Deep Learning Model Development &middot; Chennai, India</p>
+        <p class="entry__desc">
+          Created Python-based predictive models for real-time alert systems, optimizing data
+          processing efficiency for high-velocity workflows.
+        </p>
+        <ul class="chips">
+          <li>Python</li>
+          <li>Predictive Modeling</li>
+          <li>Deep Learning</li>
+          <li>Real-time Systems</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" id="projects" aria-labelledby="projects-title">
+    <h2 class="section__title" id="projects-title">Projects</h2>
+
+    <div class="projects">
+
+      <article class="project">
+        <h3 class="project__title">Industrial Digital Twin for CCUS Monitoring &amp; Cloud Integration</h3>
+        <p class="project__desc">
+          Created a real-time digital replica of Carbon Capture, Utilization, and Storage
+          (CCUS) infrastructure.
+        </p>
+        <ul class="project__points">
+          <li>Built ETL data pipelines to ingest high-frequency sensor streams into cloud-native storage.</li>
+        </ul>
+        <ul class="chips">
+          <li>Python</li>
+          <li>Cloud Computing</li>
+          <li>IoT Protocols</li>
+          <li>System Architecture</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <h3 class="project__title">Biometric Identity Analysis and Image Protection System</h3>
+        <p class="project__desc">
+          Developed a technical framework focused on securing digital identities through
+          automated analysis.
+        </p>
+        <ul class="project__points">
+          <li>Implemented Python-based cryptographic logic to ensure metadata integrity and prevent unauthorized image manipulation.</li>
+        </ul>
+        <ul class="chips">
+          <li>Python</li>
+          <li>OpenCV</li>
+          <li>Data Pipelining</li>
+          <li>Identity Analytics</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <h3 class="project__title">Seismic Predictive System with Multi-Interface Deployment</h3>
+        <p class="project__desc">
+          Created a comprehensive machine learning framework for earthquake forecasting using
+          historical seismic data.
+        </p>
+        <ul class="project__points">
+          <li>Orchestrated full-lifecycle ML workflows: simulation, feature engineering, model training, and validation.</li>
+        </ul>
+        <ul class="chips">
+          <li>Python</li>
+          <li>ML Frameworks</li>
+          <li>JavaScript</li>
+          <li>HTML/CSS</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" id="skills" aria-labelledby="skills-title">
+    <h2 class="section__title" id="skills-title">Technical Skills</h2>
+
+    <div class="skills">
+      <div class="skill-group">
+        <h3 class="skill-group__title">Languages</h3>
+        <ul class="chips chips--lg">
+          <li>Python</li>
+          <li>Java (SE)</li>
+          <li>C++</li>
+          <li>C</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group__title">Core Knowledge</h3>
+        <ul class="chips chips--lg">
+          <li>Data Structures &amp; Algorithms</li>
+          <li>Object-Oriented Programming</li>
+          <li>Operating Systems</li>
+          <li>DBMS</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group__title">Web &amp; Development</h3>
+        <ul class="chips chips--lg">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript (ES6+)</li>
+          <li>ReactJS</li>
+          <li>Firebase</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group__title">Tools &amp; Platforms</h3>
+        <ul class="chips chips--lg">
+          <li>Git / GitHub</li>
+          <li>MySQL</li>
+          <li>Postman</li>
+          <li>VS Code</li>
+          <li>Linux / Unix Terminal</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group__title">Cloud &amp; DevOps</h3>
+        <ul class="chips chips--lg">
+          <li>RESTful APIs</li>
+          <li>Data Pipelining</li>
+          <li>Cloud Integration</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group__title">Certifications</h3>
+        <ul class="certs">
+          <li>The Joy of Computing Using Python</li>
+          <li>Introduction to Natural Language Processing</li>
+          <li>Introduction to Deep Learning</li>
+          <li>eLSI: Basics of Embedded Systems</li>
+          <li>Introduction to Industry 4.0</li>
+          <li>AI Foundation Certification</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education" aria-labelledby="education-title">
+    <h2 class="section__title" id="education-title">Education</h2>
+
+    <div class="projects">
+      <article class="project">
+        <p class="entry__period">2022 &mdash; 2026</p>
+        <h3 class="project__title project__title--sm">Bachelor of Engineering</h3>
+        <p class="project__sub">Electronics &amp; Communication Engineering</p>
+        <p class="project__org">R.M.K. Engineering College, Thiruvallur</p>
+        <p class="project__score">CGPA <strong>7.29</strong></p>
+      </article>
+
+      <article class="project">
+        <p class="entry__period">2021 &mdash; 2022</p>
+        <h3 class="project__title project__title--sm">Higher Secondary Education</h3>
+        <p class="project__sub">State Board</p>
+        <p class="project__org">Saraswathi Matric Higher Secondary School, Tamil Nadu</p>
+        <p class="project__score">Score <strong>84.5%</strong></p>
+      </article>
+
+      <article class="project">
+        <p class="entry__period">2019 &mdash; 2020</p>
+        <h3 class="project__title project__title--sm">Secondary Education</h3>
+        <p class="project__sub">State Board</p>
+        <p class="project__org">Saraswathi Matric Higher Secondary School, Tamil Nadu</p>
+        <p class="project__score">Score <strong>80%</strong></p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+    <h2 class="section__title" id="contact-title">Contact</h2>
+
+    <ul class="contact__list">
+
+      <li class="contact__item">
+        <span class="contact__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </span>
+        <span class="contact__body">
+          <span class="contact__label">Email</span>
+          <a class="contact__link" href="mailto:umarajpandiperumal@gmail.com">umarajpandiperumal@gmail.com</a>
+        </span>
+      </li>
+
+      <li class="contact__item">
+        <span class="contact__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.5 11.5 0 013-.405c1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12z"/></svg>
+        </span>
+        <span class="contact__body">
+          <span class="contact__label">GitHub</span>
+          <a class="contact__link" href="https://github.com/pandiperumal" target="_blank" rel="noopener noreferrer" title="github.com/pandiperumal">pandiperumal</a>
+        </span>
+      </li>
+
+      <li class="contact__item">
+        <span class="contact__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 01-2.07-2.06 2.07 2.07 0 112.07 2.06zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+        </span>
+        <span class="contact__body">
+          <span class="contact__label">LinkedIn</span>
+          <a class="contact__link" href="https://linkedin.com/in/pandi-perumal/" target="_blank" rel="noopener noreferrer" title="linkedin.com/in/pandi-perumal">pandiperumal</a>
+        </span>
+      </li>
+
+    </ul>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Pandi Perumal &middot; <span id="year"></span></p>
+  <a class="footer__top" href="#home">Back to top</a>
+</footer>
+
+<p class="sr-only" id="themeStatus" role="status" aria-live="polite"></p>
+
+<script src="js/script.js"></script>
+</body>
+</html>
