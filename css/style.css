@@ -2,7 +2,7 @@
    Pandi Perumal — Portfolio
 
    Dark : #000000 · #1F150C · #412D15 · #E1DCC9
-   Light: #F5F5F0 · #E6D8C3 · #C2A68C · #5D866C
+   Light: #F5F5F0 · #E6D8C3 · #C2A68C · #5D866C / #4A6E56
    ========================================================= */
 
 :root {
@@ -28,10 +28,11 @@
   --faint: rgba(225, 220, 201, 0.60);
 
   --border: #412D15;
-  --border-soft: rgba(225, 220, 201, 0.10);
+  --border-soft: rgba(225, 220, 201, 0.22);
 
   --surface: #1F150C;
   --accent: #E1DCC9;
+  --accent-strong: #E1DCC9;
   --on-accent: #000000;
 
   --chip-bg: rgba(225, 220, 201, 0.05);
@@ -56,6 +57,7 @@
 
   --surface: #E6D8C3;
   --accent: #5D866C;
+  --accent-strong: #4A6E56;
   --on-accent: #000000;
 
   --chip-bg: rgba(93, 134, 108, 0.10);
@@ -95,7 +97,7 @@ a { color: inherit; text-decoration: none; }
 ::selection { background: var(--accent); color: var(--on-accent); }
 
 :focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--accent-strong);
   outline-offset: 3px;
   border-radius: 2px;
 }
@@ -604,7 +606,7 @@ a { color: inherit; text-decoration: none; }
   fill: currentColor;
 }
 
-.contact__item:hover .contact__icon { color: var(--accent); }
+.contact__item:hover .contact__icon { color: var(--accent-strong); }
 
 .contact__body {
   display: flex;
@@ -630,7 +632,7 @@ a { color: inherit; text-decoration: none; }
   transition: text-decoration-color 0.18s ease;
 }
 
-.contact__link:hover { text-decoration-color: var(--accent); }
+.contact__link:hover { text-decoration-color: var(--accent-strong); }
 
 /* =========================================================
    footer
