@@ -1,8 +1,8 @@
 # Pandi Perumal
 
-**Software Engineer** — Python, machine learning, and cloud integration.
+**Engineer - Developer** 
 
-**Live site:** https://pandiperumal.github.io/
+**Portfolio:** https://pandiperumal.github.io/
 
 ## About
 
@@ -10,7 +10,7 @@ I studied Electronics & Communication Engineering at R.M.K. Engineering College
 (2022–2026, CGPA 7.29) and work in software through automation, data, and machine
 learning.
 
-Currently a Software Engineer Intern at Tata Consultancy Services, where I built a
+Ex-Software Engineer Intern at Tata Consultancy Services, where I built a
 digital twin for CCUS infrastructure — designing the ETL pipelines that keep
 high-frequency sensor streams flowing into cloud analytics. Previously a Machine
 Learning Intern at Vcodez, building Python predictive models for real-time alerting
@@ -54,6 +54,3 @@ Industry 4.0 · AI Foundation Certification
 - LinkedIn — <https://linkedin.com/in/pandi-perumal/>
 
 ---
-
-Static site: semantic HTML, custom CSS with a dark/light theme, and vanilla
-JavaScript. No framework, no build step. Served by GitHub Pages.
